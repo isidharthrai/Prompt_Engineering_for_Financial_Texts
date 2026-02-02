@@ -1,0 +1,10 @@
+,Value
+Dataset,FinancialPhraseBank-v1.0
+Analysis Date,2026-01-18
+Total Sentences (100%),2264
+Positive Count,570
+Negative Count,303
+Neutral Count,1391
+Avg Sentence Length,22.44 words
+Class Imbalance Ratio,4.59:1
+Recommendation,Use 100% agreement dataset with class balancing techniques
