@@ -1,0 +1,465 @@
+sentence,true_sentiment,predicted_sentiment,confidence,rationale,path_scores,full_response
+"According to Gran , the company has no plans to move all production to Russia , although that is where the company is growing .",neutral,neutral,0.75,"The statement merely reports that the company will not relocate all production to Russia, despite Russia being a growth area. It does not indicate a clear financial advantage or risk to investors, and the information is largely factual. Therefore, the most supported classification is neutral.","{'positive': 0.45, 'negative': 0.25, 'neutral': 0.75}","{
+    ""sentiment"": ""neutral"",
+    ""confidence"": 0.75,
+    ""rationale"": ""The statement merely reports that the company will not relocate all production to Russia, despite Russia being a growth area. It does not indicate a clear financial advantage or risk to investors, and the information is largely factual. Therefore, the most supported classification is neutral."",
+    ""path_scores"": {
+        ""positive"": 0.45,
+        ""negative"": 0.25,
+        ""neutral"": 0.75
+    }
+}"
+"For the last quarter of 2010 , Componenta 's net sales doubled to EUR131m from EUR76m for the same period a year earlier , while it moved to a zero pre-tax profit from a pre-tax loss of EUR7m .",positive,positive,0.72,"The statement highlights a significant improvement in Componenta's financial performance: net sales doubled and the company moved from a pre‑tax loss to a break‑even position. These are clear positive indicators for investors, outweighing the fact that the company has not yet achieved a profit. The evidence of growth and profitability improvement provides the strongest support for a positive sentiment.","{'positive': 0.72, 'negative': 0.18, 'neutral': 0.1}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.72,
+    ""rationale"": ""The statement highlights a significant improvement in Componenta's financial performance: net sales doubled and the company moved from a pre‑tax loss to a break‑even position. These are clear positive indicators for investors, outweighing the fact that the company has not yet achieved a profit. The evidence of growth and profitability improvement provides the strongest support for a positive sentiment."",
+    ""path_scores"": {
+        ""positive"": 0.72,
+        ""negative"": 0.18,
+        ""neutral"": 0.10
+    }
+}"
+"In the third quarter of 2010 , net sales increased by 5.2 % to EUR 205.5 mn , and operating profit by 34.9 % to EUR 23.5 mn .",positive,positive,0.88,"The statement reports a 5.2% increase in net sales and a 34.9% jump in operating profit, both of which are strong indicators of improved financial performance. No negative or neutral factors are present to outweigh this positive signal.","{'positive': 0.88, 'negative': 0.02, 'neutral': 0.1}","**PATH 1: Hypothesis = POSITIVE**  
+- **Evidence supporting positivity**  
+  - Net sales rose 5.2 % – a clear increase in revenue.  
+  - Operating profit surged 34.9 % – a substantial improvement in profitability.  
+  - Both metrics are expressed in absolute terms (EUR 205.5 mn sales, EUR 23.5 mn profit), indicating tangible growth.  
+  - The statement highlights *growth* rather than decline, which is typically viewed favorably by investors.  
+- **Evidence contradicting positivity**  
+  - No explicit mention of market share, cost structure, or future outlook; the statement is purely historical.  
+  - The growth percentages, while positive, are modest for sales (5.2 %) compared to profit (34."
+Operating profit rose to EUR 13.1 mn from EUR 8.7 mn in the corresponding period in 2007 representing 7.7 % of net sales .,positive,positive,0.82,"The statement reports a 50% increase in operating profit (from €8.7 mn to €13.1 mn) and a higher operating margin of 7.7 % of net sales, which is a clear improvement in profitability. No evidence suggests a decline or that the increase is merely a statistical anomaly. Therefore, the strongest evidence points to a positive sentiment for investors.","{'positive': 0.82, 'negative': 0.08, 'neutral': 0.1}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.82,
+    ""rationale"": ""The statement reports a 50% increase in operating profit (from €8.7 mn to €13.1 mn) and a higher operating margin of 7.7 % of net sales, which is a clear improvement in profitability. No evidence suggests a decline or that the increase is merely a statistical anomaly. Therefore, the strongest evidence points to a positive sentiment for investors."",
+    ""path_scores"": {
+        ""positive"": 0.82,
+        ""negative"": 0.08,
+        ""neutral"": 0.10
+    }
+}"
+"Operating profit totalled EUR 21.1 mn , up from EUR 18.6 mn in 2007 , representing 9.7 % of net sales .",positive,positive,0.8,"The statement reports a clear increase in operating profit from EUR 18.6 mn in 2007 to EUR 21.1 mn, which is a 13.4% rise. This upward trend in profitability, coupled with a 9.7% operating margin, signals improved operational efficiency and financial health, which is typically viewed positively by investors. No evidence in the statement suggests a decline or negative impact, making the positive hypothesis the strongest.","{'positive': 0.8, 'negative': 0.1, 'neutral': 0.2}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.8,
+    ""rationale"": ""The statement reports a clear increase in operating profit from EUR 18.6 mn in 2007 to EUR 21.1 mn, which is a 13.4% rise. This upward trend in profitability, coupled with a 9.7% operating margin, signals improved operational efficiency and financial health, which is typically viewed positively by investors. No evidence in the statement suggests a decline or negative impact, making the positive hypothesis the strongest."",
+    ""path_scores"": {
+        ""positive"": 0.8,
+        ""negative"": 0.1,
+        ""neutral"": 0.2
+    }
+}"
+"Finnish Talentum reports its operating profit increased to EUR 20.5 mn in 2005 from EUR 9.3 mn in 2004 , and net sales totaled EUR 103.3 mn , up from EUR 96.4 mn .",positive,positive,0.92,"The statement reports a substantial increase in both operating profit (from EUR 9.3 mn to EUR 20.5 mn) and net sales (from EUR 96.4 mn to EUR 103.3 mn). Such improvements in key financial metrics are typically viewed as favorable by investors, indicating stronger profitability and revenue growth. No negative or ambiguous information is present, making the positive classification the most supported.","{'positive': 0.92, 'negative': 0.04, 'neutral': 0.04}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.92,
+    ""rationale"": ""The statement reports a substantial increase in both operating profit (from EUR 9.3 mn to EUR 20.5 mn) and net sales (from EUR 96.4 mn to EUR 103.3 mn). Such improvements in key financial metrics are typically viewed as favorable by investors, indicating stronger profitability and revenue growth. No negative or ambiguous information is present, making the positive classification the most supported."",
+    ""path_scores"": {
+        ""positive"": 0.92,
+        ""negative"": 0.04,
+        ""neutral"": 0.04
+    }
+}"
+"Clothing retail chain Sepp+l+ 's sales increased by 8 % to EUR 155.2 mn , and operating profit rose to EUR 31.1 mn from EUR 17.1 mn in 2004 .",positive,positive,0.9,"The statement reports a clear 8 % increase in sales and a substantial rise in operating profit from EUR 17.1 mn to EUR 31.1 mn, indicating strong financial performance. No negative indicators or caveats are present, making the sentiment unequivocally positive for investors.","{'positive': 0.9, 'negative': 0.05, 'neutral': 0.1}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.9,
+    ""rationale"": ""The statement reports a clear 8 % increase in sales and a substantial rise in operating profit from EUR 17.1 mn to EUR 31.1 mn, indicating strong financial performance. No negative indicators or caveats are present, making the sentiment unequivocally positive for investors."",
+    ""path_scores"": {
+        ""positive"": 0.9,
+        ""negative"": 0.05,
+        ""neutral"": 0.1
+    }
+}"
+"Consolidated net sales increased 16 % to reach EUR74 .8 m , while operating profit amounted to EUR0 .9 m compared to a loss of EUR0 .7 m in the prior year period .",positive,positive,0.85,"The statement highlights a 16 % increase in consolidated net sales and a turnaround from a loss of EUR 0.7 m to an operating profit of EUR 0.9 m, which are clear indicators of improved financial performance. These metrics are typically viewed favorably by investors, outweighing the modest absolute profit figure. No evidence of negative developments (e.g., worsening cash flow, rising debt, or significant losses) is presented, and the data does not appear neutral or ambiguous. Therefore, the positive hypothesis has the strongest support.","{'positive': 0.85, 'negative': 0.1, 'neutral': 0.05}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.85,
+    ""rationale"": ""The statement highlights a 16 % increase in consolidated net sales and a turnaround from a loss of EUR 0.7 m to an operating profit of EUR 0.9 m, which are clear indicators of improved financial performance. These metrics are typically viewed favorably by investors, outweighing the modest absolute profit figure. No evidence of negative developments (e.g., worsening cash flow, rising debt, or significant losses) is presented, and the data does not appear neutral or ambiguous. Therefore, the positive hypothesis has the strongest support."",
+    ""path_scores"": {
+        ""positive"": 0.85,
+        ""negative"": 0.10,
+        ""n"
+"Foundries division reports its sales increased by 9.7 % to EUR 63.1 mn from EUR 57.5 mn in the corresponding period in 2006 , and sales of the Machine Shop division increased by 16.4 % to EUR 41.2 mn from EUR 35.4 mn in the corresponding period in 2006 .",positive,positive,0.92,"Both divisions report year‑over‑year sales growth (9.7% for Foundries and 16.4% for Machine Shop), indicating improved revenue performance. No negative indicators (e.g., declining margins, cost increases, or operational issues) are mentioned. The statement therefore conveys a clear positive outlook for investors.","{'positive': 0.92, 'negative': 0.05, 'neutral': 0.03}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.92,
+    ""rationale"": ""Both divisions report year‑over‑year sales growth (9.7% for Foundries and 16.4% for Machine Shop), indicating improved revenue performance. No negative indicators (e.g., declining margins, cost increases, or operational issues) are mentioned. The statement therefore conveys a clear positive outlook for investors."",
+    ""path_scores"": {
+        ""positive"": 0.92,
+        ""negative"": 0.05,
+        ""neutral"": 0.03
+    }
+}"
+"HELSINKI ( AFX ) - Shares closed higher , led by Nokia after it announced plans to team up with Sanyo to manufacture 3G handsets , and by Nokian Tyres after its fourth-quarter earnings report beat analysts ' expectations , dealers said .",positive,positive,0.92,"The statement highlights that shares closed higher, driven by Nokia’s announcement of a partnership with Sanyo to produce 3G handsets and Nokian Tyres’ earnings beat. Both developments are classic positive catalysts that typically boost investor confidence and market performance. There is no evidence of negative news or neutral ambiguity; the market reaction itself confirms a positive sentiment.","{'positive': 0.92, 'negative': 0.05, 'neutral': 0.03}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.92,
+    ""rationale"": ""The statement highlights that shares closed higher, driven by Nokia’s announcement of a partnership with Sanyo to produce 3G handsets and Nokian Tyres’ earnings beat. Both developments are classic positive catalysts that typically boost investor confidence and market performance. There is no evidence of negative news or neutral ambiguity; the market reaction itself confirms a positive sentiment."",
+    ""path_scores"": {
+        ""positive"": 0.92,
+        ""negative"": 0.05,
+        ""neutral"": 0.03
+    }
+}"
+"Its board of directors will propose a dividend of EUR0 .12 per share for 2010 , up from the EUR0 .08 per share paid in 2009 .",positive,positive,0.8,"The statement announces a dividend increase from EUR0.08 to EUR0.12 per share, which signals that the company is generating sufficient earnings to return more value to shareholders. This is generally viewed as a positive sign of financial health and management confidence, outweighing any potential concerns about dividend payout ratios. The evidence for positivity (higher payout, implied profitability) far outweighs the minimal evidence for neutrality or negativity.","{'positive': 0.8, 'negative': 0.1, 'neutral': 0.3}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.8,
+    ""rationale"": ""The statement announces a dividend increase from EUR0.08 to EUR0.12 per share, which signals that the company is generating sufficient earnings to return more value to shareholders. This is generally viewed as a positive sign of financial health and management confidence, outweighing any potential concerns about dividend payout ratios. The evidence for positivity (higher payout, implied profitability) far outweighs the minimal evidence for neutrality or negativity."",
+    ""path_scores"": {
+        ""positive"": 0.8,
+        ""negative"": 0.1,
+        ""neutral"": 0.3
+    }
+}"
+"MegaFon 's subscriber base increased 16.1 % in 2009 to 50.5 million users as of December 31 , while its market share by the number of customers amounted to 24 % as of late 2009 , up from 23 % as of late 2008 , according to TeliaSonera estimates .",positive,positive,0.85,"The statement highlights a substantial 16.1% increase in MegaFon’s subscriber base and a rise in market share from 23% to 24% within a year. For investors, such growth metrics typically signal strong demand, effective market positioning, and potential for higher revenues and profitability. No evidence in the statement suggests operational issues, declining performance, or negative market reactions, making the positive interpretation the most compelling.","{'positive': 0.85, 'negative': 0.1, 'neutral': 0.25}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.85,
+    ""rationale"": ""The statement highlights a substantial 16.1% increase in MegaFon’s subscriber base and a rise in market share from 23% to 24% within a year. For investors, such growth metrics typically signal strong demand, effective market positioning, and potential for higher revenues and profitability. No evidence in the statement suggests operational issues, declining performance, or negative market reactions, making the positive interpretation the most compelling."",
+    ""path_scores"": {
+        ""positive"": 0.85,
+        ""negative"": 0.10,
+        ""neutral"": 0.25
+    }
+}"
+"Net income from life insurance doubled to EUR 6.8 mn from EUR 3.2 mn , and net income from non-life insurance rose to EUR 5.2 mn from EUR 1.5 mn in the corresponding period in 2009 .",positive,positive,0.92,"The statement reports a doubling of net income from both life and non‑life insurance segments, which is a clear indicator of improved profitability and operational performance. No negative or neutral signals are present, making the positive interpretation the strongest.","{'positive': 0.92, 'negative': 0.05, 'neutral': 0.03}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.92,
+    ""rationale"": ""The statement reports a doubling of net income from both life and non‑life insurance segments, which is a clear indicator of improved profitability and operational performance. No negative or neutral signals are present, making the positive interpretation the strongest."",
+    ""path_scores"": {
+        ""positive"": 0.92,
+        ""negative"": 0.05,
+        ""neutral"": 0.03
+    }
+}"
+Net sales increased to EUR193 .3 m from EUR179 .9 m and pretax profit rose by 34.2 % to EUR43 .1 m. ( EUR1 = USD1 .4 ),positive,positive,0.92,"The statement reports a clear increase in both net sales (from €179.9 m to €193.3 m) and pretax profit (up 34.2 % to €43.1 m). These metrics are core indicators of financial performance and are typically viewed favorably by investors. No negative information or warning signs are present, and the currency conversion note does not alter the positive trend. Therefore, the evidence overwhelmingly supports a positive sentiment.","{'positive': 0.92, 'negative': 0.04, 'neutral': 0.04}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.92,
+    ""rationale"": ""The statement reports a clear increase in both net sales (from €179.9 m to €193.3 m) and pretax profit (up 34.2 % to €43.1 m). These metrics are core indicators of financial performance and are typically viewed favorably by investors. No negative information or warning signs are present, and the currency conversion note does not alter the positive trend. Therefore, the evidence overwhelmingly supports a positive sentiment."",
+    ""path_scores"": {
+        ""positive"": 0.92,
+        ""negative"": 0.04,
+        ""neutral"": 0.04
+    }
+}"
+"Net sales surged by 18.5 % to EUR167 .8 m. Teleste said that EUR20 .4 m , or 12.2 % , of the sales came from the acquisitions made in 2009 .",positive,positive,0.8,"The statement reports an 18.5 % surge in net sales to EUR167.8 m, which is a clear indicator of strong revenue growth and is typically viewed positively by investors. While 12.2 % of that growth stems from acquisitions made in 2009—suggesting a non‑recurring component—the overall headline figure remains a positive development. No explicit negative information (e.g., declining margins, losses, or regulatory issues) is present, and the growth is substantial enough to outweigh the neutralizing effect of the acquisition‑derived sales. Therefore, the evidence most strongly supports a positive sentiment.","{'positive': 0.8, 'negative': 0.1, 'neutral': 0.1}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.8,
+    ""rationale"": ""The statement reports an 18.5 % surge in net sales to EUR167.8 m, which is a clear indicator of strong revenue growth and is typically viewed positively by investors. While 12.2 % of that growth stems from acquisitions made in 2009—suggesting a non‑recurring component—the overall headline figure remains a positive development. No explicit negative information (e.g., declining margins, losses, or regulatory issues) is present, and the growth is substantial enough to outweigh the neutralizing effect of the acquisition‑derived sales. Therefore, the evidence most strongly supports a positive sentiment."",
+    ""path_scores"": {"
+Nordea Group 's operating profit increased in 2010 by 18 percent year-on-year to 3.64 billion euros and total revenue by 3 percent to 9.33 billion euros .,positive,positive,0.92,"The statement reports a substantial 18% year‑on‑year increase in operating profit and a modest 3% rise in total revenue, both of which are clear indicators of improved profitability and operational performance. For investors, such growth signals stronger earnings potential and a healthier financial position, outweighing any neutral or negative implications. No adverse information is present, making the positive classification the most compelling.","{'positive': 0.92, 'negative': 0.04, 'neutral': 0.04}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.92,
+    ""rationale"": ""The statement reports a substantial 18% year‑on‑year increase in operating profit and a modest 3% rise in total revenue, both of which are clear indicators of improved profitability and operational performance. For investors, such growth signals stronger earnings potential and a healthier financial position, outweighing any neutral or negative implications. No adverse information is present, making the positive classification the most compelling."",
+    ""path_scores"": {
+        ""positive"": 0.92,
+        ""negative"": 0.04,
+        ""neutral"": 0.04
+    }
+}"
+"Operating profit for the nine-month period increased from EUR13 .6 m , while net sales increased from EUR394 .7 m , as compared to the corresponding period in 2005 .",positive,positive,0.85,"The statement reports increases in both operating profit and net sales compared to the same period in 2005. In financial analysis, higher operating profit and higher sales are generally viewed as favorable indicators of a company's performance, suggesting improved profitability and market demand. No evidence in the statement indicates a decline or negative context, and the information is not merely neutral data but highlights positive growth, making the positive sentiment the strongest.","{'positive': 0.85, 'negative': 0.05, 'neutral': 0.1}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.85,
+    ""rationale"": ""The statement reports increases in both operating profit and net sales compared to the same period in 2005. In financial analysis, higher operating profit and higher sales are generally viewed as favorable indicators of a company's performance, suggesting improved profitability and market demand. No evidence in the statement indicates a decline or negative context, and the information is not merely neutral data but highlights positive growth, making the positive sentiment the strongest."",
+    ""path_scores"": {
+        ""positive"": 0.85,
+        ""negative"": 0.05,
+        ""neutral"": 0.1
+    }
+}"
+"Operating profit for the three-month period increased from EUR1 .2 m , while revenue increased from EUR20 .2 m , as compared to the corresponding period in 2005 .",positive,positive,0.85,"The statement reports increases in both operating profit (from EUR 1.2 m) and revenue (from EUR 20.2 m) compared to the same period in 2005. In financial analysis, higher profit and revenue figures are generally interpreted as positive performance indicators that can boost investor confidence and potentially lift share prices. No evidence of negative context or adverse implications is present, and the statement does not merely present neutral data without any performance change. Therefore, the strongest evidence supports a positive sentiment.","{'positive': 0.85, 'negative': 0.05, 'neutral': 0.1}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.85,
+    ""rationale"": ""The statement reports increases in both operating profit (from EUR 1.2 m) and revenue (from EUR 20.2 m) compared to the same period in 2005. In financial analysis, higher profit and revenue figures are generally interpreted as positive performance indicators that can boost investor confidence and potentially lift share prices. No evidence of negative context or adverse implications is present, and the statement does not merely present neutral data without any performance change. Therefore, the strongest evidence supports a positive sentiment."",
+    ""path_scores"": {
+        ""positive"": 0.85,
+        ""negative"": 0.05,
+   "
+"The company 's net profit rose 11.4 % on the year to 82.2 million euros in 2005 on sales of 686.5 million euros , 13.8 % up on the year , the company said earlier .",positive,positive,0.92,"The statement reports a year‑over‑year increase in both net profit (11.4%) and sales (13.8%), which are classic indicators of improved financial performance and are generally viewed favorably by investors. There is no evidence of decline or negative operational metrics, so the positive hypothesis has the strongest support.","{'positive': 0.92, 'negative': 0.04, 'neutral': 0.08}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.92,
+    ""rationale"": ""The statement reports a year‑over‑year increase in both net profit (11.4%) and sales (13.8%), which are classic indicators of improved financial performance and are generally viewed favorably by investors. There is no evidence of decline or negative operational metrics, so the positive hypothesis has the strongest support."",
+    ""path_scores"": {
+        ""positive"": 0.92,
+        ""negative"": 0.04,
+        ""neutral"": 0.08
+    }
+}"
+"The Lithuanian beer market made up 14.41 million liters in January , a rise of 0.8 percent from the year-earlier figure , the Lithuanian Brewers ' Association reporting citing the results from its members .",positive,neutral,0.73,"The statement reports a modest 0.8% rise in beer consumption, which is a small change and likely reflects normal seasonal variation rather than a significant market shift. There is no indication of price changes, profit impact, or broader economic implications that would strongly influence investor sentiment. Therefore, the evidence leans toward a neutral classification.","{'positive': 0.42, 'negative': 0.18, 'neutral': 0.73}","{
+    ""sentiment"": ""neutral"",
+    ""confidence"": 0.73,
+    ""rationale"": ""The statement reports a modest 0.8% rise in beer consumption, which is a small change and likely reflects normal seasonal variation rather than a significant market shift. There is no indication of price changes, profit impact, or broader economic implications that would strongly influence investor sentiment. Therefore, the evidence leans toward a neutral classification."",
+    ""path_scores"": {
+        ""positive"": 0.42,
+        ""negative"": 0.18,
+        ""neutral"": 0.73
+    }
+}"
+"Viking Line 's cargo revenue increased by 5.4 % to EUR 21.46 mn , and cargo volume increased by 2.4 % to 70,116 cargo units .",positive,positive,0.85,"The statement reports a 5.4% rise in cargo revenue and a 2.4% rise in cargo volume, both of which are clear indicators of improved operational performance. In financial analysis, higher revenue and volume are typically viewed as positive signals for investors, suggesting stronger demand and better utilization of assets. No evidence of negative implications (such as cost increases, margin erosion, or market downturns) is provided, and the modest but consistent growth counters any neutral interpretation. Therefore, the positive hypothesis has the strongest support.","{'positive': 0.85, 'negative': 0.1, 'neutral': 0.05}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.85,
+    ""rationale"": ""The statement reports a 5.4% rise in cargo revenue and a 2.4% rise in cargo volume, both of which are clear indicators of improved operational performance. In financial analysis, higher revenue and volume are typically viewed as positive signals for investors, suggesting stronger demand and better utilization of assets. No evidence of negative implications (such as cost increases, margin erosion, or market downturns) is provided, and the modest but consistent growth counters any neutral interpretation. Therefore, the positive hypothesis has the strongest support."",
+    ""path_scores"": {
+        ""positive"": 0.85,
+        "
+"The fair value of the property portfolio doubled as a result of the Kapiteeli acquisition and totalled EUR 2,686.2 1,259.7 million .",positive,positive,0.78,"The statement highlights that the fair value of the property portfolio has doubled as a result of the Kapiteeli acquisition, reaching a substantial figure of EUR 2,686.2 million. This indicates a significant increase in asset value, which is generally viewed as favorable by investors. No explicit negative implications (such as increased debt or loss of earnings) are mentioned, and the increase in fair value is a clear positive indicator. Therefore, the positive hypothesis has the strongest evidence.","{'positive': 0.78, 'negative': 0.18, 'neutral': 0.44}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.78,
+    ""rationale"": ""The statement highlights that the fair value of the property portfolio has doubled as a result of the Kapiteeli acquisition, reaching a substantial figure of EUR 2,686.2 million. This indicates a significant increase in asset value, which is generally viewed as favorable by investors. No explicit negative implications (such as increased debt or loss of earnings) are mentioned, and the increase in fair value is a clear positive indicator. Therefore, the positive hypothesis has the strongest evidence."",
+    ""path_scores"": {
+        ""positive"": 0.78,
+        ""negative"": 0.18,
+        ""neutral"": 0.44
+    }
+}"
+10 February 2011 - Finnish media company Sanoma Oyj HEL : SAA1V said yesterday its 2010 net profit almost tripled to EUR297 .3 m from EUR107 .1 m for 2009 and announced a proposal for a raised payout .,positive,positive,0.95,"The statement reports that Sanoma Oyj’s 2010 net profit almost tripled from EUR107.1 m in 2009 to EUR297.3 m, and the company announced a proposal for a raised payout. Both a significant profit increase and a higher dividend proposal are clear positive signals for investors, outweighing any neutral or negative aspects. Therefore the positive hypothesis has the strongest evidence.","{'positive': 0.95, 'negative': 0.02, 'neutral': 0.03}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.95,
+    ""rationale"": ""The statement reports that Sanoma Oyj’s 2010 net profit almost tripled from EUR107.1 m in 2009 to EUR297.3 m, and the company announced a proposal for a raised payout. Both a significant profit increase and a higher dividend proposal are clear positive signals for investors, outweighing any neutral or negative aspects. Therefore the positive hypothesis has the strongest evidence."",
+    ""path_scores"": {
+        ""positive"": 0.95,
+        ""negative"": 0.02,
+        ""neutral"": 0.03
+    }
+}"
+"A Helsinki : ELIiV today reported EPS of EUR1 .13 for 2009 , an increase over EPS of EUR1 .12 in 2008 .",positive,positive,0.55,"The statement reports a year‑over‑year increase in earnings per share from EUR 1.12 to EUR 1.13, which is a clear sign of improved profitability and is typically viewed positively by investors. Although the increase is modest, the lack of any negative context or warning signals makes a positive classification the strongest. The neutral hypothesis is weaker because the EPS rise, however small, still conveys a positive outcome, and the negative hypothesis is unsupported by the data.","{'positive': 0.55, 'negative': 0.05, 'neutral': 0.4}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.55,
+    ""rationale"": ""The statement reports a year‑over‑year increase in earnings per share from EUR 1.12 to EUR 1.13, which is a clear sign of improved profitability and is typically viewed positively by investors. Although the increase is modest, the lack of any negative context or warning signals makes a positive classification the strongest. The neutral hypothesis is weaker because the EPS rise, however small, still conveys a positive outcome, and the negative hypothesis is unsupported by the data."",
+    ""path_scores"": {
+        ""positive"": 0.55,
+        ""negative"": 0.05,
+        ""neutral"": 0.4
+    }
+}"
+"Commission income increased by 22 % to EUR 4.4 mn , and lending volume rose by 13.5 % .",positive,positive,0.85,"The statement reports a 22 % rise in commission income to €4.4 million and a 13.5 % increase in lending volume, both of which are clear indicators of higher revenue and business activity. While a larger lending volume could theoretically raise credit risk, the overall effect on investor sentiment is overwhelmingly positive because the company is generating more income and expanding its loan book. No negative or neutral signals outweigh these gains.","{'positive': 0.85, 'negative': 0.2, 'neutral': 0.4}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.85,
+    ""rationale"": ""The statement reports a 22 % rise in commission income to €4.4 million and a 13.5 % increase in lending volume, both of which are clear indicators of higher revenue and business activity. While a larger lending volume could theoretically raise credit risk, the overall effect on investor sentiment is overwhelmingly positive because the company is generating more income and expanding its loan book. No negative or neutral signals outweigh these gains."",
+    ""path_scores"": {
+        ""positive"": 0.85,
+        ""negative"": 0.20,
+        ""neutral"": 0.40
+    }
+}"
+"In January , traffic , measured in revenue passenger kilometres RPK , went up by 3.2 % and capacity , measured in available seat kilometres ASK , rose by 12.2 % .",positive,negative,0.6,"The statement reports a modest 3.2% rise in revenue passenger kilometres (RPK) but a much larger 12.2% increase in available seat kilometres (ASK). In the airline industry, when capacity growth outpaces traffic growth, it signals potential oversupply and downward pressure on yields and margins, which is generally viewed as negative by investors. While the RPK increase alone could be seen as positive, the disproportionate ASK growth dominates the overall market interpretation, leading to a negative sentiment assessment.","{'positive': 0.4, 'negative': 0.6, 'neutral': 0.5}","{
+    ""sentiment"": ""negative"",
+    ""confidence"": 0.6,
+    ""rationale"": ""The statement reports a modest 3.2% rise in revenue passenger kilometres (RPK) but a much larger 12.2% increase in available seat kilometres (ASK). In the airline industry, when capacity growth outpaces traffic growth, it signals potential oversupply and downward pressure on yields and margins, which is generally viewed as negative by investors. While the RPK increase alone could be seen as positive, the disproportionate ASK growth dominates the overall market interpretation, leading to a negative sentiment assessment."",
+    ""path_scores"": {
+        ""positive"": 0.4,
+        ""negative"": 0.6,
+        ""neutral"": 0.5
+    }
+}"
+"In January-September 2010 , Fiskars ' net profit went up by 14 % year-on-year to EUR 65.4 million and net sales to EUR 525.3 million from EUR 487.7 million .",positive,positive,0.92,"The statement reports a 14 % year‑on‑year increase in net profit and a rise in net sales from €487.7 million to €525.3 million, both of which are clear indicators of improved financial performance. For investors, higher profitability and sales growth typically signal a strengthening business and are viewed positively. No evidence in the statement suggests a negative or neutral impact, making the positive classification the strongest.","{'positive': 0.92, 'negative': 0.04, 'neutral': 0.04}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.92,
+    ""rationale"": ""The statement reports a 14 % year‑on‑year increase in net profit and a rise in net sales from €487.7 million to €525.3 million, both of which are clear indicators of improved financial performance. For investors, higher profitability and sales growth typically signal a strengthening business and are viewed positively. No evidence in the statement suggests a negative or neutral impact, making the positive classification the strongest."",
+    ""path_scores"": {
+        ""positive"": 0.92,
+        ""negative"": 0.04,
+        ""neutral"": 0.04
+    }
+}"
+"Net income from life insurance rose to EUR 16.5 mn from EUR 14.0 mn , and net income from non-life insurance to EUR 22.6 mn from EUR 15.2 mn in 2009 .",positive,positive,0.92,"The statement reports a clear increase in net income for both life and non‑life insurance segments (from EUR 14.0 mn to EUR 16.5 mn and from EUR 15.2 mn to EUR 22.6 mn, respectively). Such a rise in profitability is traditionally viewed as favorable by investors, indicating improved operational performance and potential for higher dividends or share price appreciation. No negative or neutral indicators are present, making the positive interpretation the strongest.","{'positive': 0.92, 'negative': 0.04, 'neutral': 0.04}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.92,
+    ""rationale"": ""The statement reports a clear increase in net income for both life and non‑life insurance segments (from EUR 14.0 mn to EUR 16.5 mn and from EUR 15.2 mn to EUR 22.6 mn, respectively). Such a rise in profitability is traditionally viewed as favorable by investors, indicating improved operational performance and potential for higher dividends or share price appreciation. No negative or neutral indicators are present, making the positive interpretation the strongest."",
+    ""path_scores"": {
+        ""positive"": 0.92,
+        ""negative"": 0.04,
+        ""neutral"": 0.04
+    }
+}"
+Sales have risen in other export markets .,positive,positive,0.85,"The statement ""Sales have risen in other export markets"" directly indicates an increase in revenue from foreign markets, which is a classic positive signal for a company’s performance. No evidence in the statement suggests a decline elsewhere or a loss of profitability. The growth in export sales typically reflects market expansion and improved demand, outweighing any neutral or negative interpretations.","{'positive': 0.85, 'negative': 0.05, 'neutral': 0.1}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.85,
+    ""rationale"": ""The statement \""Sales have risen in other export markets\"" directly indicates an increase in revenue from foreign markets, which is a classic positive signal for a company’s performance. No evidence in the statement suggests a decline elsewhere or a loss of profitability. The growth in export sales typically reflects market expansion and improved demand, outweighing any neutral or negative interpretations."",
+    ""path_scores"": {
+        ""positive"": 0.85,
+        ""negative"": 0.05,
+        ""neutral"": 0.10
+    }
+}"
+Sales increased due to growing market rates and increased operations .,positive,positive,0.85,"The statement explicitly reports a rise in sales, attributing it to ""growing market rates"" and ""increased operations."" In financial analysis, higher sales figures are a clear indicator of improved revenue performance and market demand, which is generally viewed positively by investors. The mention of expanded operations further signals growth and investment in capacity, reinforcing a bullish outlook. No part of the statement suggests a decline or risk that would outweigh these positive signals, making the positive classification the strongest.","{'positive': 0.85, 'negative': 0.1, 'neutral': 0.05}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.85,
+    ""rationale"": ""The statement explicitly reports a rise in sales, attributing it to \""growing market rates\"" and \""increased operations.\"" In financial analysis, higher sales figures are a clear indicator of improved revenue performance and market demand, which is generally viewed positively by investors. The mention of expanded operations further signals growth and investment in capacity, reinforcing a bullish outlook. No part of the statement suggests a decline or risk that would outweigh these positive signals, making the positive classification the strongest."",
+    ""path_scores"": {
+        ""positive"": 0.85,
+        ""negative"": 0.10"
+The agreement strengthens our long-term partnership with Nokia Siemens Networks .,positive,positive,0.85,"The statement explicitly states that the agreement ""strengthens our long-term partnership with Nokia Siemens Networks,"" which is a clear positive development for the company. Strengthening a partnership typically signals increased collaboration, potential for future joint projects, and a more stable business relationship—all of which are viewed favorably by investors. There is no evidence suggesting a negative impact or lack of market relevance, and the wording is optimistic rather than neutral.","{'positive': 0.85, 'negative': 0.05, 'neutral': 0.1}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.85,
+    ""rationale"": ""The statement explicitly states that the agreement \""strengthens our long-term partnership with Nokia Siemens Networks,\"" which is a clear positive development for the company. Strengthening a partnership typically signals increased collaboration, potential for future joint projects, and a more stable business relationship—all of which are viewed favorably by investors. There is no evidence suggesting a negative impact or lack of market relevance, and the wording is optimistic rather than neutral."",
+    ""path_scores"": {
+        ""positive"": 0.85,
+        ""negative"": 0.05,
+        ""neutral"": 0.10
+    }
+}"
+"The company 's order book stood at 1.5 bln euro $ 2.2 bln on September 30 , 2007 , up by 24.2 pct on the year , with international orders amounting to 365 mln euro $ 534.3 mln .",positive,positive,0.85,"The statement highlights a 24.2% year‑over‑year increase in the order book, reaching €1.5 bn ($2.2 bn), and a substantial volume of international orders (€365 m / $534.3 m). These figures indicate strong demand and expansion, which are typically viewed favorably by investors. No negative indicators (e.g., declining orders, cost overruns, or market downturns) are mentioned, and the data directly supports a bullish outlook. Therefore, the positive hypothesis has the strongest evidence.","{'positive': 0.85, 'negative': 0.05, 'neutral': 0.1}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.85,
+    ""rationale"": ""The statement highlights a 24.2% year‑over‑year increase in the order book, reaching €1.5 bn ($2.2 bn), and a substantial volume of international orders (€365 m / $534.3 m). These figures indicate strong demand and expansion, which are typically viewed favorably by investors. No negative indicators (e.g., declining orders, cost overruns, or market downturns) are mentioned, and the data directly supports a bullish outlook. Therefore, the positive hypothesis has the strongest evidence."",
+    ""path_scores"": {
+        ""positive"": 0.85,
+        ""negative"": 0.05,
+        ""neutral"": 0.10
+    }
+}"
+"The company said that paper demand increased in all of its main markets , including of publication papers , and that it increased average paper prices by 4 percent compared with last year .",positive,positive,0.85,"The statement indicates that demand for the company's core product (paper) has risen across all main markets and that the company has successfully raised its average prices by 4% year‑over‑year. Both higher demand and higher prices are classic drivers of increased revenue and potentially higher margins, which are generally viewed favorably by investors. There is no mention of cost pressures, supply constraints, or negative market reactions that would offset these gains, making the positive interpretation the strongest.","{'positive': 0.85, 'negative': 0.1, 'neutral': 0.05}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.85,
+    ""rationale"": ""The statement indicates that demand for the company's core product (paper) has risen across all main markets and that the company has successfully raised its average prices by 4% year‑over‑year. Both higher demand and higher prices are classic drivers of increased revenue and potentially higher margins, which are generally viewed favorably by investors. There is no mention of cost pressures, supply constraints, or negative market reactions that would offset these gains, making the positive interpretation the strongest."",
+    ""path_scores"": {
+        ""positive"": 0.85,
+        ""negative"": 0.10,
+        ""neutral"": 0.05
+   "
+"The world 's second largest stainless steel maker said net profit in the three-month period until Dec. 31 surged to euro603 million US$ 781 million , or euro3 .33 US$ 4.31 per share , from euro172 million , or euro0 .94 per share , the previous year .",positive,positive,0.88,"The statement reports a 3.5‑fold increase in net profit and earnings per share, which is a clear positive indicator for investors. No substantial evidence suggests a negative or neutral impact, and the magnitude of the improvement strongly supports a positive market reaction.","{'positive': 0.88, 'negative': 0.04, 'neutral': 0.08}","**PATH 1: Hypothesis = POSITIVE**  
+- **Evidence supporting positivity**:  
+  - Net profit increased from €172 million to €603 million, a 3.5‑fold jump.  
+  - Earnings per share rose from €0.94 to €3.33, a 3.5‑fold increase.  
+  - The company is the world’s second‑largest stainless‑steel maker, so a strong profit surge signals robust operational performance and likely boosts investor confidence.  
+- **Evidence contradicting positivity**:  
+  - The statement does not mention revenue growth, margin expansion, or future outlook, so the surge could be due to a one‑off event.  
+  - No context on industry conditions or potential risks.  
+- **Confidence score**: **0.88**
+
+**PATH 2: Hypothesis = NEG"
+"Shares of Standard Chartered ( STAN ) rose 1.2 % in the FTSE 100 , while Royal Bank of Scotland ( RBS ) shares rose 2 % and Barclays shares ( BARC ) ( BCS ) were up 1.7 % .",positive,positive,0.85,"The statement reports that the shares of three major UK banks all rose in percentage terms (1.2%, 2%, and 1.7%). In financial sentiment analysis, an increase in share price is conventionally interpreted as a positive signal for investors, indicating better performance or market optimism. There is no evidence of negative context or downside risk in the statement, and the information is not purely neutral because the upward movement itself conveys a positive outcome. Therefore, the positive hypothesis has the strongest evidence.","{'positive': 0.85, 'negative': 0.05, 'neutral': 0.1}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.85,
+    ""rationale"": ""The statement reports that the shares of three major UK banks all rose in percentage terms (1.2%, 2%, and 1.7%). In financial sentiment analysis, an increase in share price is conventionally interpreted as a positive signal for investors, indicating better performance or market optimism. There is no evidence of negative context or downside risk in the statement, and the information is not purely neutral because the upward movement itself conveys a positive outcome. Therefore, the positive hypothesis has the strongest evidence."",
+    ""path_scores"": {
+        ""positive"": 0.85,
+        ""negative"": 0.05,
+        ""neutral"": "
+Shares of Nokia Corp. rose Thursday after the cell phone maker said its third-quarter earnings almost doubled and its share of the global handset market increased .,positive,positive,0.95,"The statement reports that Nokia’s third‑quarter earnings almost doubled and its global handset market share increased, both of which are clear indicators of improved financial performance. The fact that the shares rose on Thursday directly reflects investor approval of these developments. There is no evidence in the statement suggesting a negative or neutral impact, making the positive classification the strongest.","{'positive': 0.95, 'negative': 0.02, 'neutral': 0.03}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.95,
+    ""rationale"": ""The statement reports that Nokia’s third‑quarter earnings almost doubled and its global handset market share increased, both of which are clear indicators of improved financial performance. The fact that the shares rose on Thursday directly reflects investor approval of these developments. There is no evidence in the statement suggesting a negative or neutral impact, making the positive classification the strongest."",
+    ""path_scores"": {
+        ""positive"": 0.95,
+        ""negative"": 0.02,
+        ""neutral"": 0.03
+    }
+}"
+"In its financial report , published on Friday , SEB said its net profit soared to SEK6 .745 bn in 2010 from a year-earlier SEK1 .114 bn and proposed a 50 % dividend increase to SEK1 .50 per share .",positive,positive,0.95,"The statement reports a dramatic increase in net profit from SEK1.114 bn to SEK6.745 bn, a 500% rise, and a 50% dividend increase to SEK1.50 per share. Both metrics are clear indicators of improved financial performance and shareholder value, which are traditionally viewed as positive news for investors. No contradictory evidence (such as profit decline, dividend cuts, or negative operational commentary) is present, making the positive classification the strongest.","{'positive': 0.95, 'negative': 0.05, 'neutral': 0.1}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.95,
+    ""rationale"": ""The statement reports a dramatic increase in net profit from SEK1.114 bn to SEK6.745 bn, a 500% rise, and a 50% dividend increase to SEK1.50 per share. Both metrics are clear indicators of improved financial performance and shareholder value, which are traditionally viewed as positive news for investors. No contradictory evidence (such as profit decline, dividend cuts, or negative operational commentary) is present, making the positive classification the strongest."",
+    ""path_scores"": {
+        ""positive"": 0.95,
+        ""negative"": 0.05,
+        ""neutral"": 0.10
+    }
+}"
+"At the request of Finnish media company Alma Media 's newspapers , research manager Jari Kaivo-oja at the Finland Futures Research Centre at the Turku School of Economics has drawn up a future scenario for Finland 's national economy by using a model developed by the University of Denver .",neutral,neutral,0.92,"The statement merely reports that a research manager has produced a future scenario for Finland’s economy using a model. It contains no explicit predictions, economic indicators, or implications for market performance. Therefore, it lacks any clear positive or negative bias for investors, making a neutral classification the most appropriate.","{'positive': 0.04, 'negative': 0.04, 'neutral': 0.92}","{
+    ""sentiment"": ""neutral"",
+    ""confidence"": 0.92,
+    ""rationale"": ""The statement merely reports that a research manager has produced a future scenario for Finland’s economy using a model. It contains no explicit predictions, economic indicators, or implications for market performance. Therefore, it lacks any clear positive or negative bias for investors, making a neutral classification the most appropriate."",
+    ""path_scores"": {
+        ""positive"": 0.04,
+        ""negative"": 0.04,
+        ""neutral"": 0.92
+    }
+}"
+STOCK EXCHANGE ANNOUNCEMENT 20 July 2006 1 ( 1 ) BASWARE SHARE SUBSCRIPTIONS WITH WARRANTS AND INCREASE IN SHARE CAPITAL A total of 119 850 shares have been subscribed with BasWare Warrant Program .,neutral,neutral,0.7,"The announcement is a straightforward disclosure of a share subscription and capital increase. It does not contain any explicit positive or negative language, nor does it indicate a significant change in the company’s fundamentals or market position. While the issuance of shares and warrants can be interpreted as a sign of investor interest (positive) or as a dilution event (negative), the statement itself is purely factual and lacks any market‑moving implications. Therefore, the evidence most strongly supports a neutral classification.","{'positive': 0.4, 'negative': 0.3, 'neutral': 0.7}","{
+    ""sentiment"": ""neutral"",
+    ""confidence"": 0.7,
+    ""rationale"": ""The announcement is a straightforward disclosure of a share subscription and capital increase. It does not contain any explicit positive or negative language, nor does it indicate a significant change in the company’s fundamentals or market position. While the issuance of shares and warrants can be interpreted as a sign of investor interest (positive) or as a dilution event (negative), the statement itself is purely factual and lacks any market‑moving implications. Therefore, the evidence most strongly supports a neutral classification."",
+    ""path_scores"": {
+        ""positive"": 0.4,
+        ""negative"": 0.3,
+        ""neut"
+"A maximum of 666,104 new shares can further be subscribed for by exercising B options under the 2004 stock option plan .",neutral,neutral,0.73,"The statement merely reports a potential for up to 666,104 new shares to be issued if B options are exercised. It does not indicate whether the options will actually be exercised, nor does it provide any context about the impact on earnings, share price, or company strategy. Because the information is purely factual and lacks any explicit positive or negative implication, the most appropriate classification is neutral. The evidence for a negative sentiment (possible dilution) is outweighed by the lack of certainty and the absence of any immediate adverse effect, while the evidence for a positive sentiment (potential capital raise or employee incentive) is too weak and speculative. Therefore, neutral sentiment receives the highest confidence score.","{'positive': 0.18, 'negative': 0.39, 'neutral': 0.73}","{
+    ""sentiment"": ""neutral"",
+    ""confidence"": 0.73,
+    ""rationale"": ""The statement merely reports a potential for up to 666,104 new shares to be issued if B options are exercised. It does not indicate whether the options will actually be exercised, nor does it provide any context about the impact on earnings, share price, or company strategy. Because the information is purely factual and lacks any explicit positive or negative implication, the most appropriate classification is neutral. The evidence for a negative sentiment (possible dilution) is outweighed by the lack of certainty and the absence of any immediate adverse effect, while the evidence for a positive sentiment (potential capi"
+Tiimari operates 194 stores in six countries -- including its core Finnish market -- and generated a turnover of 76.5 mln eur in 2005 .,neutral,neutral,0.6,"The statement is purely factual, reporting Tiimari’s store count, geographic reach, and 2005 turnover. It contains no explicit positive or negative language, and without comparative context (e.g., growth rates, profitability, or market share changes) it does not convey a clear market impact. Therefore, the most appropriate classification is neutral, with the highest confidence score.","{'positive': 0.25, 'negative': 0.15, 'neutral': 0.6}","{
+    ""sentiment"": ""neutral"",
+    ""confidence"": 0.6,
+    ""rationale"": ""The statement is purely factual, reporting Tiimari’s store count, geographic reach, and 2005 turnover. It contains no explicit positive or negative language, and without comparative context (e.g., growth rates, profitability, or market share changes) it does not convey a clear market impact. Therefore, the most appropriate classification is neutral, with the highest confidence score."",
+    ""path_scores"": {
+        ""positive"": 0.25,
+        ""negative"": 0.15,
+        ""neutral"": 0.6
+    }
+}"
+The acquisition will considerably increase Kemira 's sales and market position in the Russian metal industry coatings market .,positive,positive,0.8,"The statement explicitly states that the acquisition will ""considerably increase Kemira's sales and market position"" in a specific market, which is a clear indicator of growth and value creation for investors. While there are potential risks associated with operating in Russia (e.g., sanctions, political instability, integration costs), the direct mention of increased sales and market position outweighs these concerns in the context of investor sentiment. Therefore, the positive hypothesis has the strongest evidence.","{'positive': 0.8, 'negative': 0.3, 'neutral': 0.1}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.8,
+    ""rationale"": ""The statement explicitly states that the acquisition will \""considerably increase Kemira's sales and market position\"" in a specific market, which is a clear indicator of growth and value creation for investors. While there are potential risks associated with operating in Russia (e.g., sanctions, political instability, integration costs), the direct mention of increased sales and market position outweighs these concerns in the context of investor sentiment. Therefore, the positive hypothesis has the strongest evidence."",
+    ""path_scores"": {
+        ""positive"": 0.8,
+        ""negative"": 0.3,
+        ""neutral"": 0.1
+    }
+}"
+"In January-September 2007 , Finnlines ' net sales rose to EUR 505.4 mn from EUR 473.5 mn in the corresponding period in 2006 .",positive,positive,0.8,"The statement reports a year‑to‑year increase in Finnlines' net sales (EUR 505.4 mn vs. EUR 473.5 mn), which is a straightforward positive financial metric. No adverse information (e.g., declining margins, higher costs, or losses) is provided, so the increase is interpreted as favorable for investors. The evidence for a negative or neutral stance is weak, making the positive classification the strongest.","{'positive': 0.8, 'negative': 0.1, 'neutral': 0.1}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.8,
+    ""rationale"": ""The statement reports a year‑to‑year increase in Finnlines' net sales (EUR 505.4 mn vs. EUR 473.5 mn), which is a straightforward positive financial metric. No adverse information (e.g., declining margins, higher costs, or losses) is provided, so the increase is interpreted as favorable for investors. The evidence for a negative or neutral stance is weak, making the positive classification the strongest."",
+    ""path_scores"": {
+        ""positive"": 0.8,
+        ""negative"": 0.1,
+        ""neutral"": 0.1
+    }
+}"
+"Adjusted for changes in the Group structure , the Division 's net sales increased by 1.7 % .",positive,positive,0.72,"The statement reports a 1.7 % increase in net sales after adjusting for group‑structure changes, which is a clear indicator of growth and improved performance. While the percentage is modest and the lack of additional context (e.g., profit margins, expectations) tempers enthusiasm, the net sales rise itself is a positive signal for investors. Negative sentiment is unsupported, and neutral sentiment would ignore the growth implication. Therefore, the positive hypothesis has the strongest evidence.","{'positive': 0.72, 'negative': 0.08, 'neutral': 0.54}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.72,
+    ""rationale"": ""The statement reports a 1.7 % increase in net sales after adjusting for group‑structure changes, which is a clear indicator of growth and improved performance. While the percentage is modest and the lack of additional context (e.g., profit margins, expectations) tempers enthusiasm, the net sales rise itself is a positive signal for investors. Negative sentiment is unsupported, and neutral sentiment would ignore the growth implication. Therefore, the positive hypothesis has the strongest evidence."",
+    ""path_scores"": {
+        ""positive"": 0.72,
+        ""negative"": 0.08,
+        ""neutral"": 0.54
+    }
+}"
+"4 February 2011 - Finnish broadband data communication systems provider Teleste Oyj HEL : TLT1V saw its net profit jump to EUR2 .1 m for the last quarter of 2010 from EUR995 ,000 for the same period of 2009 .",positive,positive,0.92,"The statement reports a clear increase in net profit from EUR 995,000 to EUR 2.1 million, which is a substantial improvement and typically viewed as favorable by investors. No negative information or warning signals are present, and the data is presented as a straightforward financial result. Therefore, the evidence strongly supports a positive sentiment.","{'positive': 0.92, 'negative': 0.04, 'neutral': 0.04}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.92,
+    ""rationale"": ""The statement reports a clear increase in net profit from EUR 995,000 to EUR 2.1 million, which is a substantial improvement and typically viewed as favorable by investors. No negative information or warning signals are present, and the data is presented as a straightforward financial result. Therefore, the evidence strongly supports a positive sentiment."",
+    ""path_scores"": {
+        ""positive"": 0.92,
+        ""negative"": 0.04,
+        ""neutral"": 0.04
+    }
+}"
+Finnish Aktia Group 's operating profit rose to EUR 17.5 mn in the first quarter of 2010 from EUR 8.2 mn in the first quarter of 2009 .,positive,positive,0.92,"The statement reports a substantial year‑over‑year increase in operating profit (from €8.2 mn to €17.5 mn), which is a clear indicator of improved profitability and operational performance. This is typically viewed as favorable news for investors, outweighing any neutral or negative interpretations. No evidence suggests a decline or risk that would negate the positive impact, so the positive hypothesis has the strongest support.","{'positive': 0.92, 'negative': 0.04, 'neutral': 0.04}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.92,
+    ""rationale"": ""The statement reports a substantial year‑over‑year increase in operating profit (from €8.2 mn to €17.5 mn), which is a clear indicator of improved profitability and operational performance. This is typically viewed as favorable news for investors, outweighing any neutral or negative interpretations. No evidence suggests a decline or risk that would negate the positive impact, so the positive hypothesis has the strongest support."",
+    ""path_scores"": {
+        ""positive"": 0.92,
+        ""negative"": 0.04,
+        ""neutral"": 0.04
+    }
+}"
+Finnish Bank of +land 's consolidated net operating profit increased from EUR 4.8 mn in the first quarter of 2005 to EUR 6.4 mn in the first quarter of 2006 .,positive,positive,0.9,"The statement reports a clear increase in consolidated net operating profit from EUR 4.8 mn to EUR 6.4 mn, a 33% rise, which is a straightforward indicator of improved financial performance and is generally viewed positively by investors. No evidence in the statement suggests a negative or neutral impact, making the positive classification the strongest.","{'positive': 0.9, 'negative': 0.05, 'neutral': 0.05}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.90,
+    ""rationale"": ""The statement reports a clear increase in consolidated net operating profit from EUR 4.8 mn to EUR 6.4 mn, a 33% rise, which is a straightforward indicator of improved financial performance and is generally viewed positively by investors. No evidence in the statement suggests a negative or neutral impact, making the positive classification the strongest."",
+    ""path_scores"": {
+        ""positive"": 0.90,
+        ""negative"": 0.05,
+        ""neutral"": 0.05
+    }
+}"
+Operating profit increased by 145.1 % to EUR 8.3 mn from EUR 3.4 mn .,positive,positive,0.92,"The statement reports a substantial 145.1% increase in operating profit, rising from EUR 3.4 million to EUR 8.3 million. This indicates improved profitability and operational efficiency, which is typically viewed favorably by investors. There is no mention of any negative context or accompanying adverse events, so the evidence overwhelmingly supports a positive sentiment.","{'positive': 0.92, 'negative': 0.08, 'neutral': 0.2}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.92,
+    ""rationale"": ""The statement reports a substantial 145.1% increase in operating profit, rising from EUR 3.4 million to EUR 8.3 million. This indicates improved profitability and operational efficiency, which is typically viewed favorably by investors. There is no mention of any negative context or accompanying adverse events, so the evidence overwhelmingly supports a positive sentiment."",
+    ""path_scores"": {
+        ""positive"": 0.92,
+        ""negative"": 0.08,
+        ""neutral"": 0.20
+    }
+}"
+"Both operating profit and net sales for the three-month period increased , respectively from EUR15 .1 m and EUR131 .5 m , as compared to the corresponding period in 2005 .",positive,positive,0.92,"The statement reports increases in both operating profit and net sales compared to the same period in 2005, which is a clear indicator of improved financial performance. No negative or neutral qualifiers are present, and the metrics are presented as gains, making the positive classification the strongest.","{'positive': 0.92, 'negative': 0.04, 'neutral': 0.04}","{
+    ""sentiment"": ""positive"",
+    ""confidence"": 0.92,
+    ""rationale"": ""The statement reports increases in both operating profit and net sales compared to the same period in 2005, which is a clear indicator of improved financial performance. No negative or neutral qualifiers are present, and the metrics are presented as gains, making the positive classification the strongest."",
+    ""path_scores"": {
+        ""positive"": 0.92,
+        ""negative"": 0.04,
+        ""neutral"": 0.04
+    }
+}"
