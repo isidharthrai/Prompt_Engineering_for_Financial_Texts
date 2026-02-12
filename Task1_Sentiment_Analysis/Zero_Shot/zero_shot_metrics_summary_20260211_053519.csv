@@ -1,0 +1,4 @@
+Experiment,Total Samples,Valid Predictions,Accuracy,Macro-F1,Weighted-F1,Macro-Precision,Macro-Recall,MCC,Positive_Precision,Positive_Recall,Positive_F1,Negative_Precision,Negative_Recall,Negative_F1,Neutral_Precision,Neutral_Recall,Neutral_F1
+E1: llama3.1:8b,200,200,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,1.0
+E2: qwen3:8b,200,200,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,1.0
+E3: deepseek-r1:8b,200,199,0.9949748743718593,0.9532534648813719,0.9951967967627661,0.9166666666666667,0.9974226804123711,0.9105151293016966,1.0,0.9948453608247423,0.9974160206718347,0.0,0.0,0.0,0.8333333333333334,1.0,0.9090909090909091
